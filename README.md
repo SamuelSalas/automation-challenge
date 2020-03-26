@@ -33,6 +33,12 @@ npm install
 ### Running Tests
 
 ```sh
+npm install
+```
+
+### Running Tests
+
+```sh
 npm test
 ```
 
