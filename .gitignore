@@ -1,0 +1,7 @@
+node_modules
+Results
+mochawesome-report
+.vscode
+package-lock.json
+yarn.lock
+.env
