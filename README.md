@@ -1,2 +1,2 @@
-# savvy-front-qa
+# Automation Front end Challenge
 
