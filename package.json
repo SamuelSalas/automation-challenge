@@ -5,9 +5,7 @@
   "main": "index.js",
   "scripts": {
     "generateMochawesome": "marge Results/**.json --autoOpen=true",
-    "generateAllure": "allure generate ./allure-report && allure open",
-    "test": "wdio ./config/wdio.conf.js",
-    "test-prod": "wdio ./config/desktop/wdio.prod.conf.js"
+    "test": "wdio ./config/wdio.conf.js"
   },
   "keywords": [
     "NodeJS",
