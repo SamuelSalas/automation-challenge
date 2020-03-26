@@ -9,17 +9,17 @@ exports.config = {
     {
       maxInstances: 1,
       browserName: "chrome"
+    },
+    {
+      maxInstances: 1,
+      browserName: "firefox",
+      "moz:firefoxOptions": {
+        prefs: {
+          // Prevent opening the extension tabs on startup
+          "extensions.enabledScopes": 0
+        }
+      }
     }
-    // {
-    //   maxInstances: 1,
-    //   browserName: "firefox",
-    //   "moz:firefoxOptions": {
-    //     prefs: {
-    //       // Prevent opening the extension tabs on startup
-    //       "extensions.enabledScopes": 0
-    //     }
-    //   }
-    // }
   ],
   runner: "local",
   specFileRetries: 1,
